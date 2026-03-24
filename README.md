@@ -26,13 +26,3 @@ Rastgele oluşturulan iki Pokémon takımını karşılaştıran, skor hesaplaya
 
 ---
 
-## 💡 Teknik Özellikler
-
-- **Shuffle Algoritması** – Fisher-Yates tabanlı dizi karıştırma ile adil takım dağılımı
-- **useMemo Optimizasyonu** – `battleKey` değiştiğinde takımlar yeniden hesaplanır, gereksiz render önlenir
-- **Modüler Bileşen Mimarisi** – `PokemonCard`, `TeamSection`, `ResultBanner` bileşenleriyle ayrıştırılmış yapı
-- **Statik Veri Katmanı** – `src/data/pokemon.js` üzerinden yönetilen sabit Pokémon havuzu
-- **Utility Fonksiyon Ayrımı** – Shuffle mantığı `src/utils/shuffle.js`'de izole edilmiş
-- **Tailwind CSS v4** – Vite plugin entegrasyonu ile utility-first stillendirme
-
----
